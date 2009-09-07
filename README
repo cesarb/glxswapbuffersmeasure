@@ -1,0 +1,9 @@
+glxswapbuffersmeasure - measure latency between glXSwapBuffers calls
+
+glxswapbuffersmeasure.so is a quick-and-dirty LD_PRELOAD library which
+measures the average and maximum latency between glXSwapBuffers calls
+(buffer swaps) in a 3D application.
+
+Usage:
+
+LD_PRELOAD=./glxswapbuffersmeasure.so <command>
